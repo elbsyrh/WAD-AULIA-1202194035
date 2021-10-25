@@ -10,13 +10,13 @@ html {
 
 .paddingtop{
     margin-top:5vh;
-    /* width: 30vw;
-    height: 90vh; */
+    width: 30vw;
+    height: 90vh;
 }
 
 * {
     box-sizing: border-box;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   }
   .jumbotron-fluid {
     height: 0px;
