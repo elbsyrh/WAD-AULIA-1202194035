@@ -1,0 +1,46 @@
+body,
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    background-color: lightblue;
+}
+
+.container-fluid{
+    padding: 70px 0 10px 0;
+    color: black;
+} 
+
+.container-fluid h2, .container-fluid p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.col-md-auto{
+    padding: 35px;
+}
+
+.card{
+    width:15rem;
+    margin: auto;
+    padding: 0;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 7px 10px, inset rgba(0, 0, 0, 0.15) 0px 0px 3px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 7px 10px, inset rgba(0, 0, 0, 0.15) 0px 0px 3px;
+    -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 7px 10px, inset rgba(0, 0, 0, 0.15) 0px 0px 3px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 7px 10px, inset rgba(0, 0, 0, 0.15) 0px 0px 3px;
+}
+
+.card-header{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.card-body h4, .list-group, .card-footer{
+    text-align: center;
+}
+
+.card-body h6{
+    text-align: center;
+    color: rgb(42, 114, 177);
+}
