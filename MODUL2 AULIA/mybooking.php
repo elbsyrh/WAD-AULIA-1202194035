@@ -31,8 +31,8 @@
     </nav>
     <?php
         $book_num = rand();
-        $name = $_POST['name'];
-        $checkin = $_POST['eventdate'];
+        $name = $_POST['nama'];
+        $checkin = $_POST['eventdata'];
         $checkin_dsply = '';
         $duration = $_POST['duration'];
         $checkout = '';
@@ -82,9 +82,9 @@
                     <tr>
                         <th scope="row"><?=$book_num?></th>
                         <td><?= $name?></td>
-                        <td><?= $checkin_dsply?></td>
-                        <td><?= $checkout?></td>
-                        <td><?= $roomtype?></td>
+                        <td><?= $checkin_dsplay?></td>
+                        <td><?= $checkout_time?></td>
+                        <td><?= $roomtype_ordered?></td>
                         <td><?= $phone?></td>
                         <td>
                             <ul>

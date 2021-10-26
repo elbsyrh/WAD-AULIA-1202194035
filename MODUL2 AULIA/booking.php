@@ -32,7 +32,7 @@
     <?php
         $method_selected = '';
         $image_selected = '';
-        $hotel1_bk = isset($_POST['card1']);
+        $hotel1_bk = isset($_POST['card10']);
         $hotel2_bk = isset($_POST['card2']);
         $hotel3_bk = isset($_POST['card3']);
         $img_src = [
